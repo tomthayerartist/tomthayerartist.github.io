@@ -5,10 +5,10 @@ describe( 'background data from property value', () => {
 	const dataSet = [
 		[
 			// background-image: url
-			"url('http://localhost/wp-content/uploads/2024/08/image1.jpeg')",
+			"url('https://localhost/wp-content/uploads/2024/08/image1.jpeg')",
 			'background-image',
 			[
-				'http://localhost/wp-content/uploads/2024/08/image1.jpeg'
+				'https://localhost/wp-content/uploads/2024/08/image1.jpeg'
 			]
 		],
 		[
@@ -22,13 +22,13 @@ describe( 'background data from property value', () => {
 		[
 			// background-image: image-set
 			'image-set(' +
-			"'http://localhost/wp-content/uploads/2024/08/image1-768x437.jpeg' 1x, " +
-			"'http://localhost/wp-content/uploads/2024/08/image1.jpeg' 2x" +
+			"'https://localhost/wp-content/uploads/2024/08/image1-768x437.jpeg' 1x, " +
+			"'https://localhost/wp-content/uploads/2024/08/image1.jpeg' 2x" +
 			');',
 			'background-image-set',
 			[
-				'http://localhost/wp-content/uploads/2024/08/image1-768x437.jpeg',
-				'http://localhost/wp-content/uploads/2024/08/image1.jpeg',
+				'https://localhost/wp-content/uploads/2024/08/image1-768x437.jpeg',
+				'https://localhost/wp-content/uploads/2024/08/image1.jpeg',
 			]
 		],
 		[
@@ -46,13 +46,13 @@ describe( 'background data from property value', () => {
 		[
 			// background-image: image-set with url
 			'image-set(' +
-			"url('http://localhost/wp-content/uploads/2024/08/image1-768x437.jpeg') 1x, " +
-			"url('http://localhost/wp-content/uploads/2024/08/image1.jpeg') 2x" +
+			"url('https://localhost/wp-content/uploads/2024/08/image1-768x437.jpeg') 1x, " +
+			"url('https://localhost/wp-content/uploads/2024/08/image1.jpeg') 2x" +
 			');',
 			'background-image-set',
 			[
-				'http://localhost/wp-content/uploads/2024/08/image1-768x437.jpeg',
-				'http://localhost/wp-content/uploads/2024/08/image1.jpeg',
+				'https://localhost/wp-content/uploads/2024/08/image1-768x437.jpeg',
+				'https://localhost/wp-content/uploads/2024/08/image1.jpeg',
 			]
 		],
 		[
@@ -70,13 +70,13 @@ describe( 'background data from property value', () => {
 		[
 			// background-image: image-set query params
 			'image-set(' +
-			'http://localhost/wp-content/uploads/2024/08/image1-768x437.jpeg?hello=world 1x, ' +
-			'http://localhost/wp-content/uploads/2024/08/image1.jpeg?yellow=world 2x' +
+			'https://localhost/wp-content/uploads/2024/08/image1-768x437.jpeg?hello=world 1x, ' +
+			'https://localhost/wp-content/uploads/2024/08/image1.jpeg?yellow=world 2x' +
 			');',
 			'background-image-set',
 			[
-				'http://localhost/wp-content/uploads/2024/08/image1-768x437.jpeg?hello=world',
-				'http://localhost/wp-content/uploads/2024/08/image1.jpeg?yellow=world',
+				'https://localhost/wp-content/uploads/2024/08/image1-768x437.jpeg?hello=world',
+				'https://localhost/wp-content/uploads/2024/08/image1.jpeg?yellow=world',
 			]
 		],
 		[
@@ -95,7 +95,7 @@ describe( 'background data from property value', () => {
 
 	it.each( dataSet )( 'returns correct data for given property value', ( propertyValue, type, urls ) => {
 		const lcpDetector = new SmushLCPDetector();
-		lcpDetector.shouldUseRelativeImageURL = ! propertyValue.includes( 'http://localhost' );
+		lcpDetector.shouldUseRelativeImageURL = ! propertyValue.includes( 'https://localhost' );
 		const backgroundDataForElement = lcpDetector.getBackgroundDataForPropertyValue( propertyValue );
 
 		expect( backgroundDataForElement ).toStrictEqual( {
@@ -109,38 +109,38 @@ describe( 'shouldUseRelativeImageURL', () => {
 	const dataSet = [
 		[
 			// Case: Element contains absolute URL in src attribute
-			'<img src="http://localhost/wp-content/uploads/2024/08/image1.jpeg">',
-			'http://localhost/wp-content/uploads/2024/08/image1.jpeg',
+			'<img src="https://localhost/wp-content/uploads/2024/08/image1.jpeg">',
+			'https://localhost/wp-content/uploads/2024/08/image1.jpeg',
 			false,
 		],
 		[
 			// Case: Element contains relative URL in src attribute
 			'<img src="/wp-content/uploads/2024/08/image1.jpeg">',
-			'http://localhost/wp-content/uploads/2024/08/image1.jpeg',
+			'https://localhost/wp-content/uploads/2024/08/image1.jpeg',
 			true,
 		],
 		[
 			// Case: Element does not contain the URL
 			'<img src="/wp-content/uploads/2024/08/other-image.jpeg">',
-			'http://localhost/wp-content/uploads/2024/08/image1.jpeg',
+			'https://localhost/wp-content/uploads/2024/08/image1.jpeg',
 			false,
 		],
 		[
 			// Case: Element contains absolute URL in background style
-			'<div style="background-image: url(http://localhost/wp-content/uploads/2024/08/image1.jpeg);"></div>',
-			'http://localhost/wp-content/uploads/2024/08/image1.jpeg',
+			'<div style="background-image: url(https://localhost/wp-content/uploads/2024/08/image1.jpeg);"></div>',
+			'https://localhost/wp-content/uploads/2024/08/image1.jpeg',
 			false,
 		],
 		[
 			// Case: Element contains relative URL in background style
 			'<div style="background-image: url(/wp-content/uploads/2024/08/image1.jpeg);"></div>',
-			'http://localhost/wp-content/uploads/2024/08/image1.jpeg',
+			'https://localhost/wp-content/uploads/2024/08/image1.jpeg',
 			true,
 		],
 		[
 			// Case: Element is null
 			null,
-			'http://localhost/wp-content/uploads/2024/08/image1.jpeg',
+			'https://localhost/wp-content/uploads/2024/08/image1.jpeg',
 			false,
 		],
 	];

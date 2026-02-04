@@ -1,10 +1,10 @@
 /*!
  *  Script: chldthmcfg.js
- *  Plugin URI: http://www.childthemeplugin.com/
+ *  Plugin URI: https://www.childthemeplugin.com/
  *  Description: Handles jQuery, AJAX and other UI
  *  Version: 2.3.4
  *  Author: Lilaea Media
- *  Author URI: http://www.lilaeamedia.com/
+ *  Author URI: https://www.lilaeamedia.com/
  *  License: GPLv2
  *  Copyright (C) 2014-2018 Lilaea Media
  */

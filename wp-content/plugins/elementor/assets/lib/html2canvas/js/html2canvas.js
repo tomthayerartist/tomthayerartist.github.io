@@ -4252,7 +4252,7 @@
         if (!ctx) {
             return false;
         }
-        img.src = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'></svg>";
+        img.src = "data:image/svg+xml,<svg xmlns='https://www.w3.org/2000/svg'></svg>";
         try {
             ctx.drawImage(img, 0, 0);
             canvas.toDataURL();
@@ -4304,7 +4304,7 @@
             .catch(function () { return false; });
     };
     var createForeignObjectSVG = function (width, height, x, y, node) {
-        var xmlns = 'http://www.w3.org/2000/svg';
+        var xmlns = 'https://www.w3.org/2000/svg';
         var svg = document.createElementNS(xmlns, 'svg');
         var foreignObject = document.createElementNS(xmlns, 'foreignObject');
         svg.setAttributeNS(null, 'width', width.toString());
@@ -4704,7 +4704,7 @@
                     iframe.contentWindow.document &&
                     iframe.contentWindow.document.documentElement) {
                     _this.tree = parseTree(context, iframe.contentWindow.document.documentElement);
-                    // http://www.w3.org/TR/css3-background/#special-backgrounds
+                    // https://www.w3.org/TR/css3-background/#special-backgrounds
                     var documentBackgroundColor = iframe.contentWindow.document.documentElement
                         ? parseColor(context, getComputedStyle(iframe.contentWindow.document.documentElement).backgroundColor)
                         : COLORS.TRANSPARENT;
@@ -5687,7 +5687,7 @@
                 return 'about:blank';
             }
             link.href = url;
-            link.href = link.href; // IE9, LOL! - http://jsfiddle.net/niklasvh/2e48b/
+            link.href = link.href; // IE9, LOL! - https://jsfiddle.net/niklasvh/2e48b/
             return link.protocol + link.hostname + link.port;
         };
         CacheStorage.isSameOrigin = function (src) {
@@ -7803,7 +7803,7 @@
     }); };
     var parseBackgroundColor = function (context, element, backgroundColorOverride) {
         var ownerDocument = element.ownerDocument;
-        // http://www.w3.org/TR/css3-background/#special-backgrounds
+        // https://www.w3.org/TR/css3-background/#special-backgrounds
         var documentBackgroundColor = ownerDocument.documentElement
             ? parseColor(context, getComputedStyle(ownerDocument.documentElement).backgroundColor)
             : COLORS.TRANSPARENT;

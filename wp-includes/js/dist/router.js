@@ -496,7 +496,7 @@ function findHandler(state, originalPath, queryParams) {
     return result;
 }
 function decodeQueryParamPart(part) {
-    // http://www.w3.org/TR/html401/interact/forms.html#h-17.13.4.1
+    // https://www.w3.org/TR/html401/interact/forms.html#h-17.13.4.1
     part = part.replace(/\+/gm, "%20");
     var result;
     try {
@@ -1574,7 +1574,7 @@ function useHistory() {
   const navigate = (0,external_wp_compose_namespaceObject.useEvent)(
     async (rawPath, options = {}) => {
       const query = (0,external_wp_url_namespaceObject.getQueryArgs)(rawPath);
-      const path = (0,external_wp_url_namespaceObject.getPath)("http://domain.com/" + rawPath) ?? "";
+      const path = (0,external_wp_url_namespaceObject.getPath)("https://domain.com/" + rawPath) ?? "";
       const performPush = () => {
         const result = beforeNavigate ? beforeNavigate({ path, query }) : { path, query };
         return router_history.push(
@@ -1721,7 +1721,7 @@ function useLink(to, options = {}) {
     history.navigate(to, options);
   }
   const query = (0,external_wp_url_namespaceObject.getQueryArgs)(to);
-  const path = (0,external_wp_url_namespaceObject.getPath)("http://domain.com/" + to) ?? "";
+  const path = (0,external_wp_url_namespaceObject.getPath)("https://domain.com/" + to) ?? "";
   const link = (0,external_wp_element_namespaceObject.useMemo)(() => {
     return beforeNavigate ? beforeNavigate({ path, query }) : { path, query };
   }, [path, query, beforeNavigate]);

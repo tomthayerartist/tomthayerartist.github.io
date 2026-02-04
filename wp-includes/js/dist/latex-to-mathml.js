@@ -95,7 +95,7 @@ class ParseError {
     }
 
     // Some hackery to make ParseError a prototype of Error
-    // See http://stackoverflow.com/a/8460753
+    // See https://stackoverflow.com/a/8460753
     const self = new Error(error);
     self.name = "ParseError";
     self.__proto__ = ParseError.prototype;
@@ -218,7 +218,7 @@ const protocolFromUrl = function(url) {
  * Round `n` to 4 decimal places, or to the nearest 1/10,000th em. The TeXbook
  * gives an acceptable rounding error of 100sp (which would be the nearest
  * 1/6551.6em with our ptPerEm = 10):
- * http://www.ctex.org/documents/shredder/src/texbook.pdf#page=69
+ * https://www.ctex.org/documents/shredder/src/texbook.pdf#page=69
  */
 const round = function(n) {
   return +n.toFixed(4);
@@ -678,7 +678,7 @@ class MathNode {
    * Converts the math node into a MathML-namespaced DOM element.
    */
   toNode() {
-    const node = document.createElementNS("http://www.w3.org/1998/Math/MathML", this.type);
+    const node = document.createElementNS("https://www.w3.org/1998/Math/MathML", this.type);
 
     for (const attr in this.attributes) {
       if (Object.prototype.hasOwnProperty.call(this.attributes, attr)) {
@@ -2465,7 +2465,7 @@ function buildMathML(tree, texExpression, style, settings) {
   const math = new mathMLTree.MathNode("math", [wrapper]);
 
   if (settings.xml) {
-    math.setAttribute("xmlns", "http://www.w3.org/1998/Math/MathML");
+    math.setAttribute("xmlns", "https://www.w3.org/1998/Math/MathML");
   }
   if (wrapper.style.width) {
     math.style.width = "100%";
@@ -4833,7 +4833,7 @@ defineMacro("\\arraycolsep", "6pt");    // half the width separating columns
 
 //////////////////////////////////////////////////////////////////////
 // amsmath.sty
-// http://mirrors.concertpass.com/tex-archive/macros/latex/required/amsmath/amsmath.pdf
+// https://mirrors.concertpass.com/tex-archive/macros/latex/required/amsmath/amsmath.pdf
 
 //\newcommand{\substack}[1]{\subarray{c}#1\endsubarray}
 defineMacro("\\substack", "\\begin{subarray}{c}#1\\end{subarray}");
@@ -5180,7 +5180,7 @@ defineMacro("\\leftmodels", "\\mathop{\\reflectbox{$\\models$}}");
 
 //////////////////////////////////////////////////////////////////////
 // braket.sty
-// http://ctan.math.washington.edu/tex-archive/macros/latex/contrib/braket/braket.pdf
+// https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/braket/braket.pdf
 
 defineMacro("\\bra", "\\mathinner{\\langle{#1}|}");
 defineMacro("\\ket", "\\mathinner{|{#1}\\rangle}");
@@ -5329,7 +5329,7 @@ defineMacro("\\standardstate", "\\text{\\tiny\\char`⦵}");
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ *      https://www.apache.org/licenses/LICENSE-2.0
  *
  *  Unless required by applicable law or agreed to in writing, software
  *  distributed under the License is distributed on an "AS IS" BASIS,
@@ -7090,7 +7090,7 @@ defineMacro("\\weierp", "\\wp");
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ *      https://www.apache.org/licenses/LICENSE-2.0
  *
  *  Unless required by applicable law or agreed to in writing, software
  *  distributed under the License is distributed on an "AS IS" BASIS,
@@ -13777,9 +13777,9 @@ function postProcess(block) {
       if (str.charAt(0) !== "(") { str = "(" + str; }
       if (str.slice(-1) !== ")") { str =  str + ")"; }
     }
-    const mtext = document.createElementNS("http://www.w3.org/1998/Math/MathML", "mtext");
+    const mtext = document.createElementNS("https://www.w3.org/1998/Math/MathML", "mtext");
     mtext.appendChild(document.createTextNode(str));
-    const math =  document.createElementNS("http://www.w3.org/1998/Math/MathML", "math");
+    const math =  document.createElementNS("https://www.w3.org/1998/Math/MathML", "math");
     math.appendChild(mtext);
     ref.appendChild(math);
   });

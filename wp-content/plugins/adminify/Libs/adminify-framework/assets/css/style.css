@@ -2536,7 +2536,7 @@
   font-size: 0;
   width: 24px;
   height: 30px;
-  background-image: url("data:image/svg+xml,%3Csvg width='14' height='13' viewBox='0 0 17 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.995 7.62609e-06C4.83623 -0.00568472 1.36667 3.17599 1.01302 7.3197C0.659364 11.4634 3.53958 15.187 7.63917 15.8862C11.7388 16.5853 15.6903 14.0267 16.73 10H14.649C13.6318 12.8771 10.617 14.5324 7.64347 13.8465C4.66992 13.1605 2.68491 10.3519 3.03082 7.3199C3.37673 4.28792 5.94335 1.99856 8.995 2.00001C10.5846 2.00234 12.1064 2.64379 13.218 3.78002L10 7.00001H17V7.62609e-06L14.649 2.35002C13.1527 0.844637 11.1175 -0.0012743 8.995 7.62609e-06Z' fill='%232E3A59'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='13' viewBox='0 0 17 16' fill='none' xmlns='https://www.w3.org/2000/svg'%3E%3Cpath d='M8.995 7.62609e-06C4.83623 -0.00568472 1.36667 3.17599 1.01302 7.3197C0.659364 11.4634 3.53958 15.187 7.63917 15.8862C11.7388 16.5853 15.6903 14.0267 16.73 10H14.649C13.6318 12.8771 10.617 14.5324 7.64347 13.8465C4.66992 13.1605 2.68491 10.3519 3.03082 7.3199C3.37673 4.28792 5.94335 1.99856 8.995 2.00001C10.5846 2.00234 12.1064 2.64379 13.218 3.78002L10 7.00001H17V7.62609e-06L14.649 2.35002C13.1527 0.844637 11.1175 -0.0012743 8.995 7.62609e-06Z' fill='%232E3A59'/%3E%3C/svg%3E%0A");
   background-repeat: no-repeat;
   background-position: left;
   border: none;
@@ -2725,7 +2725,7 @@
 .adminify-section .adminify-field .adminify--transparent-offset {
   height: 18px;
   width: 200px;
-  background: url(http://tomthayer.net/wp-content/plugins/adminify/Libs/adminify-framework/assets/images/checkerboard.png) repeat-y center left scroll #fff;
+  background: url(https://tomthayer.net/wp-content/plugins/adminify/Libs/adminify-framework/assets/images/checkerboard.png) repeat-y center left scroll #fff;
   border-radius: 2px;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
 }
@@ -2757,7 +2757,7 @@
   transition: background-color 0.2s, border-color 0.2s, color 0.2s;
 }
 .adminify-section .adminify-field .adminify--transparent-active .wp-color-result {
-  background-image: url(http://tomthayer.net/wp-content/plugins/adminify/Libs/adminify-framework/assets/images/checkerboard.png);
+  background-image: url(https://tomthayer.net/wp-content/plugins/adminify/Libs/adminify-framework/assets/images/checkerboard.png);
   background-size: 135px;
   background-position: center left;
   background-color: transparent !important;

@@ -99,7 +99,7 @@
         minuteIncrement: 5,
         mode: "single",
         monthSelectorType: "dropdown",
-        nextArrow: "<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 17 17'><g></g><path d='M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z' /></svg>",
+        nextArrow: "<svg version='1.1' xmlns='https://www.w3.org/2000/svg' xmlns:xlink='https://www.w3.org/1999/xlink' viewBox='0 0 17 17'><g></g><path d='M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z' /></svg>",
         noCalendar: false,
         now: new Date(),
         onChange: [],
@@ -117,7 +117,7 @@
         plugins: [],
         position: "auto",
         positionElement: undefined,
-        prevArrow: "<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 17 17'><g></g><path d='M5.207 8.471l7.146 7.147-0.707 0.707-7.853-7.854 7.854-7.853 0.707 0.707-7.147 7.146z' /></svg>",
+        prevArrow: "<svg version='1.1' xmlns='https://www.w3.org/2000/svg' xmlns:xlink='https://www.w3.org/1999/xlink' viewBox='0 0 17 17'><g></g><path d='M5.207 8.471l7.146 7.147-0.707 0.707-7.853-7.854 7.854-7.853 0.707 0.707-7.147 7.146z' /></svg>",
         shorthandCurrentMonth: false,
         showMonths: 1,
         static: false,
@@ -2846,7 +2846,7 @@
 ;// Chosen Order v1.2.1
 // This plugin allows you to handle the order of the selection for Chosen multiple <select> dropdowns
 // Full source at https://github.com/tristanjahier/chosen-order
-// Copyright (c) 2013 - Tristan Jahier, http://tristan-jahier.fr
+// Copyright (c) 2013 - Tristan Jahier, https://tristan-jahier.fr
 (function() {
   var $, ADMINIFYAbstractChosenOrder, _ref,
     __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; },
@@ -4364,7 +4364,7 @@
 ;/**
 *
 * jQuery Interdependencies library
-* http://miohtama.github.com/jquery-interdependencies/
+* https://miohtama.github.com/jquery-interdependencies/
 * Copyright 2012-2013 Mikko Ohtamaa, others
 *
 * Customized by Adminify

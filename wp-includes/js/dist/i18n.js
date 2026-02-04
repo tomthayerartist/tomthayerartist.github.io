@@ -81,7 +81,7 @@ __webpack_require__.d(__webpack_exports__, {
  * /^[$_\p{L}\p{Nl}][$_\p{L}\p{Nl}\u200C\u200D\p{Mn}\p{Mc}\p{Nd}\p{Pc}]*$/u;
  * ```
  *
- * @see http://www.pixelbeat.org/programming/gcc/format_specs.html
+ * @see https://www.pixelbeat.org/programming/gcc/format_specs.html
  * @see https://mathiasbynens.be/notes/javascript-identifiers#valid-identifier-names
  *
  * @type {RegExp}
@@ -577,7 +577,7 @@ function pluralForms( expression ) {
 /**
  * Jed-formatted locale data.
  *
- * @see http://messageformat.github.io/Jed/
+ * @see https://messageformat.github.io/Jed/
  *
  * @typedef {{[domain:string]:TanninLocaleDomain}} TanninLocaleData
  */

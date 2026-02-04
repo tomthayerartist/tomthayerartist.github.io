@@ -202,7 +202,7 @@ function AccountContentB(_ref) {
     height: "104",
     viewBox: "0 0 104 104",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, /*#__PURE__*/_react.default.createElement("rect", {
     width: "104",
     height: "104",
@@ -1762,7 +1762,7 @@ var getFeatureData = function getFeatureData() {
       height: "35",
       viewBox: "0 0 35 35",
       fill: "none",
-      xmlns: "http://www.w3.org/2000/svg"
+      xmlns: "https://www.w3.org/2000/svg"
     }, /*#__PURE__*/_react.default.createElement("path", {
       fillRule: "evenodd",
       clipRule: "evenodd",
@@ -1777,7 +1777,7 @@ var getFeatureData = function getFeatureData() {
       height: "35",
       viewBox: "0 0 35 35",
       fill: "none",
-      xmlns: "http://www.w3.org/2000/svg"
+      xmlns: "https://www.w3.org/2000/svg"
     }, /*#__PURE__*/_react.default.createElement("path", {
       fillRule: "evenodd",
       clipRule: "evenodd",
@@ -1805,7 +1805,7 @@ var getFeatureData = function getFeatureData() {
       height: "35",
       viewBox: "0 0 35 35",
       fill: "none",
-      xmlns: "http://www.w3.org/2000/svg"
+      xmlns: "https://www.w3.org/2000/svg"
     }, /*#__PURE__*/_react.default.createElement("path", {
       fillRule: "evenodd",
       clipRule: "evenodd",

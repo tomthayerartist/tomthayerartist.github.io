@@ -1,5 +1,5 @@
 /*! jQuery UI - v1.11.2 - 2014-12-04
-* http://jqueryui.com
+* https://jqueryui.com
 * Includes: core.js, widget.js, position.js, menu.js, selectmenu.js
 * Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
 
@@ -18,13 +18,13 @@
 
 /*!
  * jQuery UI Widget 1.11.2
- * http://jqueryui.com
+ * https://jqueryui.com
  *
  * Copyright 2014 jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  *
- * http://api.jqueryui.com/jQuery.widget/
+ * https://api.jqueryui.com/jQuery.widget/
  */
 
 
@@ -43,7 +43,7 @@ $.cleanData = (function( orig ) {
                     $( elem ).triggerHandler( "remove" );
                 }
 
-            // http://bugs.jquery.com/ticket/8235
+            // https://bugs.jquery.com/ticket/8235
             } catch ( e ) {}
         }
         orig( elems );
@@ -308,7 +308,7 @@ $.Widget.prototype = {
             .unbind( this.eventNamespace )
             .removeData( this.widgetFullName )
             // support: jquery <1.6.4
-            // http://bugs.jquery.com/ticket/9413
+            // https://bugs.jquery.com/ticket/9413
             .removeData( $.camelCase( this.widgetFullName ) );
         this.widget()
             .unbind( this.eventNamespace )
@@ -569,13 +569,13 @@ var widget = $.widget;
 
 /*!
  * jQuery UI Menu 1.11.2
- * http://jqueryui.com
+ * https://jqueryui.com
  *
  * Copyright 2014 jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  *
- * http://api.jqueryui.com/menu/
+ * https://api.jqueryui.com/menu/
  */
 
 
@@ -1200,13 +1200,13 @@ var menu = $.widget( "ui.menu", {
 
 /*!
  * jQuery UI Selectmenu 1.11.2
- * http://jqueryui.com
+ * https://jqueryui.com
  *
  * Copyright 2014 jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * https://jquery.org/license
  *
- * http://api.jqueryui.com/selectmenu
+ * https://api.jqueryui.com/selectmenu
  */
 
 

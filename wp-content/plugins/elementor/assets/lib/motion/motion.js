@@ -851,7 +851,7 @@
 
     // Linear color space blending
     // Explained https://www.youtube.com/watch?v=LKnqECcg6Gw
-    // Demonstrated http://codepen.io/osublake/pen/xGVVaN
+    // Demonstrated https://codepen.io/osublake/pen/xGVVaN
     const mixLinearColor = (from, to, v) => {
         const fromExpo = from * from;
         const expo = v * (to * to - fromExpo) + fromExpo;

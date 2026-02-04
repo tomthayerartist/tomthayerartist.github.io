@@ -1494,7 +1494,7 @@ function isRangeEqual(a, b) {
 
 
 
-const MATHML_NAMESPACE = "http://www.w3.org/1998/Math/MathML";
+const MATHML_NAMESPACE = "https://www.w3.org/1998/Math/MathML";
 function createPathToNode(node, rootNode, path) {
   const parentNode = node.parentNode;
   let i = 0;

@@ -10702,7 +10702,7 @@ function ReExportBanner() {
   }), /*#__PURE__*/_react.default.createElement(_ui.Typography, {
     variant: "body2"
   }, __('This website template was exported from an older version of Elementor. If possible, re-export it with the latest version for better capabilities.', 'elementor'))), /*#__PURE__*/_react.default.createElement(_ui.Link, {
-    href: "http://go.elementor.com/app-import-export-errors-old-kits",
+    href: "https://go.elementor.com/app-import-export-errors-old-kits",
     variant: "body2",
     color: "info.light",
     underline: "hover",
@@ -21685,7 +21685,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
           var err = new Error(
             'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
             'Use `PropTypes.checkPropTypes()` to call them. ' +
-            'Read more at http://fb.me/use-check-prop-types'
+            'Read more at https://fb.me/use-check-prop-types'
           );
           err.name = 'Invariant Violation';
           throw err;
@@ -22131,7 +22131,7 @@ if (true) {
   var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/prop-types/node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
-  // http://fb.me/prop-types-in-prod
+  // https://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
   module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "../node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
 } else // removed by dead control flow

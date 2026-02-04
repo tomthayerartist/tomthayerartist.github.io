@@ -285,7 +285,7 @@ var ArrowAltIcon = function ArrowAltIcon(_ref) {
     height: "31",
     viewBox: "0 0 31 31",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: arrow_alt_this,
     __source: {
@@ -317,7 +317,7 @@ var ArrowIcon = function ArrowIcon(_ref) {
     height: "31",
     viewBox: "0 0 30 31",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: arrow_this,
     __source: {
@@ -353,7 +353,7 @@ var BusinessIcon = function BusinessIcon(_ref) {
     height: "34",
     viewBox: "0 0 40 34",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: business_this,
     __source: {
@@ -390,7 +390,7 @@ var CheckIcon = function CheckIcon(_ref) {
     height: "13",
     viewBox: "0 0 12 13",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: check_this,
     __source: {
@@ -427,7 +427,7 @@ var CloudIcon = function CloudIcon(_ref) {
     height: "29",
     viewBox: "0 0 40 29",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: cloud_this,
     __source: {
@@ -464,7 +464,7 @@ var EmailIcon = function EmailIcon(_ref) {
     height: "21",
     viewBox: "0 0 20 21",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: email_this,
     __source: {
@@ -501,7 +501,7 @@ var GlobeIcon = function GlobeIcon(_ref) {
     height: "22",
     viewBox: "0 0 20 22",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: globe_this,
     __source: {
@@ -538,7 +538,7 @@ var LayersIcon = function LayersIcon(_ref) {
     height: "22",
     viewBox: "0 0 20 22",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: layers_this,
     __source: {
@@ -570,7 +570,7 @@ var ReviewIcon = function ReviewIcon(_ref) {
     width: "17",
     height: "35",
     viewBox: "0 0 17 35",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: review_this,
     __source: {
@@ -608,7 +608,7 @@ var StarIcon = function StarIcon(_ref) {
     height: "33",
     viewBox: "0 0 34 33",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: star_this,
     __source: {
@@ -645,7 +645,7 @@ var StarAltIcon = function StarAltIcon(_ref) {
     height: "13",
     viewBox: "0 0 12 13",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: star_alt_this,
     __source: {
@@ -682,7 +682,7 @@ var SupportIcon = function SupportIcon(_ref) {
     height: "22",
     viewBox: "0 0 20 22",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: support_this,
     __source: {
@@ -719,7 +719,7 @@ var SettingsIcon = function SettingsIcon(_ref) {
     height: "21",
     viewBox: "0 0 20 21",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: settings_this,
     __source: {
@@ -756,7 +756,7 @@ var ServerIcon = function ServerIcon(_ref) {
     height: "21",
     viewBox: "0 0 20 21",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: server_this,
     __source: {
@@ -793,7 +793,7 @@ var GoogleIcon = function GoogleIcon(_ref) {
     height: "15",
     viewBox: "0 0 57 15",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: google_this,
     __source: {
@@ -875,7 +875,7 @@ var ReviewsIcon = function ReviewsIcon(_ref) {
     height: "12",
     viewBox: "0 0 68 12",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: reviews_this,
     __source: {
@@ -1028,7 +1028,7 @@ var TrustPilotIcon = function TrustPilotIcon(_ref) {
     height: "15",
     viewBox: "0 0 57 15",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, delegated, {
     __self: trustpilot_this,
     __source: {

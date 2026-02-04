@@ -79,7 +79,7 @@
 
 #sbi_admin .sbi_admin_btn {
     padding: 0 21px 0 160px;
-    background: #386793 url('http://tomthayer.net/wp-content/plugins/instagram-feed/img/small-logo.png') no-repeat 16px 11px;
+    background: #386793 url('https://tomthayer.net/wp-content/plugins/instagram-feed/img/small-logo.png') no-repeat 16px 11px;
 }
 
 #sbi_admin .sbi-oembed-connect-btn i {
@@ -2126,19 +2126,19 @@
 
 #sbi-admin-about .sbi-admin-about-section-table table p.features-full {
     padding-left: 30px;
-    background-image: url(http://tomthayer.net/wp-content/plugins/instagram-feed/img/about/icon-full.svg)
+    background-image: url(https://tomthayer.net/wp-content/plugins/instagram-feed/img/about/icon-full.svg)
 }
 
 #sbi-admin-about .sbi-admin-about-section-table table p.features-none {
     padding-left: 30px;
-    background-image: url(http://tomthayer.net/wp-content/plugins/instagram-feed/img/about/icon-none.svg)
+    background-image: url(https://tomthayer.net/wp-content/plugins/instagram-feed/img/about/icon-none.svg)
 }
 
 #sbi-admin-about .sbi-admin-about-section-table table p.features-partial {
     padding-left: 30px;
     background-position: -3px 0;
     background-size: 23px auto;
-    background-image: url(http://tomthayer.net/wp-content/plugins/instagram-feed/img/about/icon-partial.svg)
+    background-image: url(https://tomthayer.net/wp-content/plugins/instagram-feed/img/about/icon-partial.svg)
 }
 
 #sbi-admin-about .sbi-admin-about-section-table .sbi-admin-about-section-hero-main {
@@ -2872,7 +2872,7 @@
         width: 55%;
         float: left;
         height: 500px;
-        background: url('http://tomthayer.net/wp-content/plugins/instagram-feed/img/sw-screenshot.png') no-repeat center center;
+        background: url('https://tomthayer.net/wp-content/plugins/instagram-feed/img/sw-screenshot.png') no-repeat center center;
         background-size: cover;
     }
 

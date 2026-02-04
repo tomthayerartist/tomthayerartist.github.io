@@ -682,7 +682,7 @@ function isValidPath(path) {
 function getQueryString(url) {
   let query;
   try {
-    query = new URL(url, "http://example.com").search.substring(1);
+    query = new URL(url, "https://example.com").search.substring(1);
   } catch (error) {
   }
   if (query) {
@@ -868,7 +868,7 @@ function prependHTTP(url) {
   }
   url = url.trim();
   if (!USABLE_HREF_REGEXP.test(url) && !isEmail(url)) {
-    return "http://" + url;
+    return "https://" + url;
   }
   return url;
 }
@@ -933,7 +933,7 @@ function getFilename(url) {
     return;
   }
   try {
-    filename = new URL(url, "http://example.com").pathname.split("/").pop();
+    filename = new URL(url, "https://example.com").pathname.split("/").pop();
   } catch (error) {
   }
   if (filename) {
@@ -960,7 +960,7 @@ function prependHTTPS(url) {
   if (!url) {
     return url;
   }
-  if (url.startsWith("http://")) {
+  if (url.startsWith("https://")) {
     return url;
   }
   url = prependHTTP(url);
