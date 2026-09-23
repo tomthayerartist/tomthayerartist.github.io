@@ -2725,7 +2725,7 @@
 .adminify-section .adminify-field .adminify--transparent-offset {
   height: 18px;
   width: 200px;
-  background: url(https://tomthayer.net/wp-content/plugins/adminify/Libs/adminify-framework/assets/images/checkerboard.png) repeat-y center left scroll #fff;
+  background: url(https://tomthayerartist.github.io/wp-content/plugins/adminify/Libs/adminify-framework/assets/images/checkerboard.png) repeat-y center left scroll #fff;
   border-radius: 2px;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
 }
@@ -2757,7 +2757,7 @@
   transition: background-color 0.2s, border-color 0.2s, color 0.2s;
 }
 .adminify-section .adminify-field .adminify--transparent-active .wp-color-result {
-  background-image: url(https://tomthayer.net/wp-content/plugins/adminify/Libs/adminify-framework/assets/images/checkerboard.png);
+  background-image: url(https://tomthayerartist.github.io/wp-content/plugins/adminify/Libs/adminify-framework/assets/images/checkerboard.png);
   background-size: 135px;
   background-position: center left;
   background-color: transparent !important;

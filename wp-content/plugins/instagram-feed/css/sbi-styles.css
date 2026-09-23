@@ -1198,7 +1198,7 @@
 /* Lightbox */
 /* Preload images */
 body:after {
-    content: url(https://tomthayer.net/wp-content/plugins/instagram-feed/img/sbi-sprite.png);
+    content: url(https://tomthayerartist.github.io/wp-content/plugins/instagram-feed/img/sbi-sprite.png);
     display: none;
 }
 
@@ -1304,7 +1304,7 @@ body:after {
     width: 14px;
     height: 14px;
     margin: 0 auto;
-    background: url(https://tomthayer.net/wp-content/plugins/instagram-feed/img/sbi-sprite.png) no-repeat;
+    background: url(https://tomthayerartist.github.io/wp-content/plugins/instagram-feed/img/sbi-sprite.png) no-repeat;
 }
 
 .sbi_lb-nav {
@@ -1390,7 +1390,7 @@ body:after {
     width: 34px;
     height: 45px;
     margin: -25px 0 0 0;
-    background: url(https://tomthayer.net/wp-content/plugins/instagram-feed/img/sbi-sprite.png) no-repeat;
+    background: url(https://tomthayerartist.github.io/wp-content/plugins/instagram-feed/img/sbi-sprite.png) no-repeat;
 }
 
 .sbi_lb-nav a.sbi_lb-prev span {
